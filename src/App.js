@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-import LoginButton from "./components/LoginButton";
+import AuthButton from "./components/AuthButton";
 import Profile from "./components/Profile";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <LoginButton />
+      <AuthButton />
       <Profile />
     </div>
   );
