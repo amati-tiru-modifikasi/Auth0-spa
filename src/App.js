@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import LoginButton from "./components/LoginButton";
+import Profile from "./components/Profile";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </a>
       </header>
       <LoginButton />
+      <Profile />
     </div>
   );
 }
